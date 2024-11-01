@@ -1,0 +1,34 @@
+{
+    "name": "shutterpress/shutterpress-gallery",
+    "description": "Photographers photo gallery for Wordpress",
+    "type": "wordpress-plugin",
+    "license": "GPL",
+    "require": {
+        "composer/installers": "~1.0",
+        "wpackagist-plugin/meta-box": "^5.10"
+    },
+
+    "repositories":[
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+
+    "extra": {
+        "installer-paths": {
+            "vendor/meta-box/meta-box": ["wpackagist-plugin/meta-box"]
+        }
+    },
+
+    "autoload": {
+        "files": [
+            "vendor/meta-box/meta-box/meta-box.php"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}

@@ -1,0 +1,18 @@
+= 1.1.0 =
+* Changes gallery image storage from a single postmeta entry for each image to an array of image ids.
+
+= 1.0.2 =
+* Fixes issue with image metadata not being removed from a gallery when an image is deleted.
+* Adds a filter to allow developers to add additional settings page tabs.
+* Checks if metabox.io is installed before loading the metabox.io scripts.
+* Adds compatiibility with PHP 8.1.
+* Fixes an issue when users weren't returned to the correct tab when saving settings.
+
+= 1.0.1 =
+* Adds composer.json file 
+* Correctly adds inline styles
+* Adds Jquery imagesloaded locally
+* Changes all prefixes to sp_gallery or Shutterpress_Gallery
+
+= 1.0.0 =
+* Initial release with image galleries, shortcode, Gutenberg block, favourite image feature, image download, lightbox and filter functionality.

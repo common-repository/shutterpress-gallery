@@ -1,0 +1,17 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "shutterpress-gallery/shutterpress-gallery-block",
+    "version": "0.1.0",
+    "title": "Shutterpress Gallery",
+    "category": "widgets",
+    "icon": "format-gallery",
+    "description": "Display the Shutterpress Gallery.",
+    "example": {},
+    "supports": {
+        "html": false
+    },
+    "textdomain": "shutterpress-gallery",
+    "editorScript": "file:./shutterpress-gallery-block.js",
+    "render": "file:./shutterpress-gallery-block-render.php"
+}

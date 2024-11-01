@@ -1,0 +1,11 @@
+.sp-gallery-settings-page input[type=number] {
+    width:100px
+}
+
+.sp-gallery-settings-page input[type=text],.sp-gallery-settings-page input[type=email] {
+    width:400px
+}
+
+.sp_gallery_email_footer_editor_ifr {
+    height:400px;
+}
